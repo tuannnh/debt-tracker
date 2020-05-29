@@ -1,0 +1,62 @@
+{
+  "name": "debt-tracker",
+  "version": "1.0.0",
+  "description": "Debt Tracker Application",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "lint": "eslint *.js **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuannh/debt-tracker.git"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.5",
+    "@react-navigation/bottom-tabs": "^5.0.6",
+    "@react-navigation/compat": "^5.0.0",
+    "@react-navigation/drawer": "5.0.0",
+    "@react-navigation/native": "5.0.0",
+    "@react-navigation/stack": "^5.0.0",
+    "expo": "^36.0.0",
+    "expo-asset": "~8.0.0",
+    "expo-font": "~8.0.0",
+    "expo-local-authentication": "~8.0.0",
+    "galio-framework": "^0.6.3",
+    "prop-types": "^15.7.2",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.1",
+    "react-native-masked-text": "^1.13.0",
+    "react-native-modal-dropdown": "^0.7.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-safe-area-context": "0.6.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-smooth-pincode-input": "^1.0.9",
+    "react-native-svg": "^9.9.5",
+    "react-native-swipe-gestures": "^1.0.5",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-preset-expo": "^7.1.0"
+  },
+  "keywords": [
+    "debt tracker",
+    "debt",
+    "money",
+    "react native"
+  ],
+  "author": "Hung Tuan",
+  "bugs": {
+    "url": "https://github.com/tuannnh/debt-tracker"
+  },
+  "homepage": "https://hungtuan.me/debt-tracker"
+}
